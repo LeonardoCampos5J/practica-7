@@ -1,0 +1,118 @@
+*{
+    margin: 0 ;
+    padding: 0 ;
+}
+body{
+    background-color: #94D794;
+}
+.areaPrincipal{
+    background-image: url(../img/fondo.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    opacity: 0.7;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+#encabezado{
+    background: #228765;
+    height: 240px;
+    text-align: center;
+    background-image: url(../img/logo.png);
+    background-repeat: no-repeat;
+    background-size: 180px 180px;
+    font-weight: bold;
+}
+.piePagina{
+    width: 100%;
+    height: 10px;
+    background: #36CC7C;
+    color: white;
+    bottom: 0;
+    position: fixed;
+    left: 0;
+}
+#menu{
+    height: 40px;
+    position: relative;
+    top: 200px;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #77A668;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: #94D794;
+}
+#datos{
+    width: 80%;
+    background-color: #D6FFBE;
+    height: 600px;
+    margin: auto;
+    opacity: 1;
+    color: black;
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+img{ 
+    display: block;
+    width: 10%;
+    height: 600px;
+        
+}
+header {
+    background-color: #36CC7C;
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    color: black;
+}
+#img1{
+    height: 500px;
+    width: 70%;
+}
+#datosG{
+    width: 80%;
+    background-color: #D6FFBE;
+    height: 1220px;
+    margin: auto;
+    opacity: 1;
+    color: black;
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#datosF{
+    width: 80%;
+    background-color: #D6FFBE;
+    height: 730px;
+    margin: auto;
+    opacity: 1;
+    color: black;
+    padding: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
